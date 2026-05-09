@@ -17,6 +17,8 @@ Route::get('/landscape-architecture', [frontend::class, 'landscape'])->name('ser
 Route::get('/urban-planning', [frontend::class, 'urban'])->name('service.urban');
 Route::get('/project-management', [frontend::class, 'projectManagement'])->name('service.management');
 Route::get('/mep-services', [frontend::class, 'mep'])->name('service.mep');
+Route::get('/project-management', [frontend::class, 'projectManagement'])->name('service.management');
+
 
 // Contact mailer starts from here 
 Route::post('/contact-send', [MailController::class, 'send'])->name('contact.send');

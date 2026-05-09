@@ -8,9 +8,24 @@
                                 <div class="logo mb-30"><img src="img/logo.png" alt=""></div>
                                 <div class="social-icons mb-30">
                                     <ul class="list-inline">
-                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li>
+                                            <a href="https://www.instagram.com/saltador_architects_indore?igsh=MWltZ2R1eTM3NXZyNA%3D%3D">
+                                                <i class="fa-brands fa-instagram"></i>
+                                            </a>
+                                        </li>
+                                    
+                             
+                                    
+                                        <li>
+                                            <a href="https://www.facebook.com/profile.php?id=61578240914887">
+                                                <i class="fa-brands fa-facebook-f"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://wa.me/+916260476007" target="_blank">
+                                                <i class="fa-brands fa-whatsapp"></i>
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
