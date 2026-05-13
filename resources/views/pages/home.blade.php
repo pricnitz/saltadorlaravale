@@ -12,7 +12,7 @@
                 <div class="col-md-7">
                     <h6>Indore, Madhya Pradesh</h6>
                     <h2>Saltador Architect</h2>
-                    <a href="portfolio-single.html" class="durubtn4">
+                    <a href="{{route('portfolio')}}" class="durubtn4">
                         <span class="text-wrapper">
                             <span class="text slide-up">Explore project</span>
                             <span class="text slide-down">Explore project</span>
@@ -20,7 +20,7 @@
                     </a>
                 </div>
                 <div class="col-md-3 offset-md-2 text-center">
-                    <a href="portfolio-single.html" class="hover-this circle-button-overlay">
+                    <a href="{{route('portfolio')}}" class="hover-this circle-button-overlay">
                         <div class="circle-button in-bord hover-anim">
                             <div class="rotate-circle">
                                 <svg class="textcircle safari-fix" viewBox="0 0 500 500">
@@ -89,10 +89,16 @@
                                 <p>Farmhouse</p>
                             </div>
                         </li>
+                        <li>
+                            <div class="page-list-icon"> <span class="fa-solid fa-circle-check"></span> </div>
+                            <div class="page-list-text">
+                                <p>Interior Design</p>
+                            </div>
+                        </li>
 
 
                     </ul>
-                    <a href="#" class="durubtn"> <span class="text-wrapper"><span class="text slide-up">Read
+                    <a href="{{ route('about') }}" class="durubtn"> <span class="text-wrapper"><span class="text slide-up">Read
                                 more</span><span class="text slide-down">Read more</span></span></a>
                 </div>
                 <div class="col-lg-5 offset-lg-2 col-md-12">
@@ -105,66 +111,154 @@
         </div>
     </section>
 
-    <section class="services section-padding">
-        <div class="container">
-            <div class="section-linetitle">
-                <div class="d-flex align-items-center">
-                    <div class="leter">
-                        <h4>S</h4>
-                    </div>
-                    <div class="line"></div>
+ <section class="services section-padding">
+    <div class="container">
+        <div class="section-linetitle">
+            <div class="d-flex align-items-center">
+                <div class="leter">
+                    <h4>S</h4>
                 </div>
-                <div class="title">
-                    <h6 class="sub-title">Services.</h6>
-                </div>
+                <div class="line"></div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="owl-carousel owl-theme">
-                        <div class="item mb-25">
-                            <a href="#"><span class="arrow "><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <div class="icon"><i class="fa-solid fa-compass-drafting"></i></div>
-                            <h5>Architecture</h5>
-                            <p>Architectural designs that balance aesthetics, interior, function and innovative
-                                thinking.</p>
+            <div class="title">
+                <h6 class="sub-title">Services.</h6>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="owl-carousel owl-theme">
+
+                    <!-- Architecture -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.architect') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-compass-drafting"></i>
                         </div>
-                        <div class="item mb-25">
-                            <a href="#"><span class="arrow "><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <div class="icon"><i class="fa-solid fa-couch"></i></div>
-                            <h5>Interior design</h5>
-                            <p>We create elegant, functional interiors that reflect your lifestyle and personal taste.
-                            </p>
-                        </div>
-                        <div class="item mb-25">
-                            <a href="#"><span class="arrow "><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <div class="icon"><i class="fa-solid fa-cube"></i></div>
-                            <h5>3D modelling</h5>
-                            <p>High-quality 3D modelling solutions for architecture, interiors, exterior, design and
-                                products.</p>
-                        </div>
-                        <div class="item mb-25">
-                            <a href="#"><span class="arrow "><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <div class="icon"><i class="fa-solid fa-city"></i></div>
-                            <h5>Urban design</h5>
-                            <p>Sustainable urban design that enhances community life and environmental harmony.</p>
-                        </div>
-                        <div class="item mb-25">
-                            <a href="#"><span class="arrow "><i
-                                        class="fa-solid fa-arrow-up-right-from-square"></i></span></a>
-                            <div class="icon"><i class="fa-solid fa-map"></i></div>
-                            <h5>Planning</h5>
-                            <p>Strategic planning that guides spaces toward functionality and lasting value.</p>
-                        </div>
+
+                        <h5>Architecture</h5>
+
+                        <p>
+                            Architectural designs that balance aesthetics, functionality,
+                            and innovative thinking.
+                        </p>
                     </div>
+
+                    <!-- Interior Design -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.interior') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-couch"></i>
+                        </div>
+
+                        <h5>Interior Design</h5>
+
+                        <p>
+                            We create elegant and functional interiors that reflect
+                            your lifestyle and personal taste.
+                        </p>
+                    </div>
+
+                    <!-- Urban Planning -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.urban') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-city"></i>
+                        </div>
+
+                        <h5>Urban Planning</h5>
+
+                        <p>
+                            Sustainable urban planning solutions that improve community
+                            living and environmental harmony.
+                        </p>
+                    </div>
+
+                    <!-- Landscape Architecture -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.landscape') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-map"></i>
+                        </div>
+
+                        <h5>Landscape Architecture</h5>
+
+                        <p>
+                            Creating harmonious outdoor environments that blend nature,
+                            functionality, and modern design aesthetics.
+                        </p>
+                    </div>
+
+                    <!-- Project Management -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.management') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-diagram-project"></i>
+                        </div>
+
+                        <h5>Project Management</h5>
+
+                        <p>
+                            Professional project management services ensuring quality,
+                            efficiency, and timely execution.
+                        </p>
+                    </div>
+
+                    <!-- MEP Services -->
+                    <div class="item mb-25">
+                        <a href="{{ route('service.mep') }}">
+                            <span class="arrow">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                            </span>
+                        </a>
+
+                        <div class="icon">
+                            <i class="fa-solid fa-gears"></i>
+                        </div>
+
+                        <h5>MEP Services</h5>
+
+                        <p>
+                            Reliable mechanical, electrical, and plumbing solutions
+                            designed for performance and sustainability.
+                        </p>
+                    </div>
+
                 </div>
             </div>
         </div>
-        <div class="dots-half bg-img bg-imgfixed" data-overlay-dark="7" data-background="{{asset('frontend/img/banners/3.jpg')}}"></div>
-    </section>
+    </div>
+
+    <div class="dots-half bg-img bg-imgfixed"
+        data-overlay-dark="7"
+        data-background="{{ asset('frontend/img/banners/3.jpg') }}">
+    </div>
+</section>
 
     <section class="portfolio2 section-padding bg-darkbrown">
         <div class="container">
@@ -184,54 +278,55 @@
                     <div class="portfolio2-container">
                         <div class="owl-carousel owl-theme">
                             <div class="item mb-25">
-                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Warangal 2.jpg')}}" alt=""> </div>
+                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Proposed airport food court.jpg')}}" alt="Residence at Indore 1.jpg"> </div>
                                 <div class="icon-wrapper">
                                     <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
-                                    <a href="portfolio-single.html" class="hover-icon-link" title="View Project">
+                                    <a href="portfolio-single.html" class="hover-icon-link">
+                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
+                                    </a>
+                                </div>
+                                <div class="con">
+                                    <h5>Proposed Airport Food Court</h5>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <div class="item mb-25">
+                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 1.jpg')}}" alt="Residence at Indore 1.jpg"> </div>
+                                <div class="icon-wrapper">
+                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
+                                    <a href="portfolio-single.html" class="hover-icon-link">
+                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
+                                    </a>
+                                </div>
+                                <div class="con">
+                                    <h5>Residence at Indore</h5>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+
+                            <div class="item mb-25">
+                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Mhow.png')}}" alt="Residence at Indore 1.jpg"> </div>
+                                <div class="icon-wrapper">
+                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
+                                    <a href="portfolio-single.html" class="hover-icon-link">
+                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
+                                    </a>
+                                </div>
+                                <div class="con">
+                                    <h5>Residence at Mhow</h5>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <div class="item mb-25">
+                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Warangal 2.jpg')}}" alt="Residence at Indore 1.jpg"> </div>
+                                <div class="icon-wrapper">
+                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
+                                    <a href="portfolio-single.html" class="hover-icon-link">
                                         <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
                                     </a>
                                 </div>
                                 <div class="con">
                                     <h5>Residence at Warangal</h5>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="item mb-25">
-                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 1.jpg')}}" alt="Residence at Indore 1.jpg"> </div>
-                                <div class="icon-wrapper">
-                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
-                                    <a href="portfolio-single.html" class="hover-icon-link">
-                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
-                                    </a>
-                                </div>
-                                <div class="con">
-                                    <h5>Residence at Indore</h5>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="item mb-25">
-                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence in indore1.png')}}" alt="Residence at Indore 1.jpg"> </div>
-                                <div class="icon-wrapper">
-                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
-                                    <a href="portfolio-single.html" class="hover-icon-link">
-                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
-                                    </a>
-                                </div>
-                                <div class="con">
-                                    <h5>Residence at Indore</h5>
-                                    <div class="line"></div>
-                                </div>
-                            </div>
-                            <div class="item mb-25">
-                                <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 1.jpg')}}" alt="Residence at Indore 1.jpg"> </div>
-                                <div class="icon-wrapper">
-                                    <i class="fa-solid fa-arrow-up-right-from-square default-icon"></i>
-                                    <a href="portfolio-single.html" class="hover-icon-link">
-                                        <i class="fa-solid fa-arrow-up-right-from-square hover-icon"></i>
-                                    </a>
-                                </div>
-                                <div class="con">
-                                    <h5>Residence at Indore</h5>
                                     <div class="line"></div>
                                 </div>
                             </div>
@@ -245,7 +340,7 @@
     <section class="testimonials2 pt-80 mt-100 mb-0">
         <div class="container">
             <div class="bg-img bg-imgfixed" data-background="{{asset('frontend/img/banners/4.jpg')}}" data-overlay-dark="6">
-                <div class="play-button">
+                {{-- <div class="play-button">
                     <a href="https://youtu.be/XVM-4riPX4k" class="btn vid">
                         <svg width="100px" height="100px" viewBox="0 0 100 100" preserveAspectRatio="none">
                             <circle class="circle" cx="50" cy="50" r="48" stroke="white" stroke-width="2" fill="none" />
@@ -253,7 +348,7 @@
                         <i class="fa-solid fa-play"></i>
                     </a>
                     <div class="text"><span>Watch the trailer</span></div>
-                </div>
+                </div> --}}
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-12 mb-60">
@@ -345,7 +440,7 @@
                 </div>
             </div>
         </div>
-        <div class="ornava-text">SALTARDOR</div>
+        <div class="ornava-text">SALTADOR</div>
     </section>
 
     <!-- <section class="team section-padding">

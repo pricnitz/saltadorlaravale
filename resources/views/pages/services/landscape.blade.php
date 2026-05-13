@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="banner-header middle-height section-padding valign bg-img bg-imgfixed" data-overlay-dark="5"
-    data-background="{{asset('frontend/img/banners/6.jpg')}}">
+        data-background="{{asset('frontend/img/banners/7.jpg')}}">
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
@@ -32,7 +32,7 @@
             </div>
 
             <div class="col-lg-5 offset-lg-1 col-md-12">
-                <img class="vert-move" src="{{asset('frontend/img/banners/1.jpg')}}" alt="Landscape Architecture">
+                <img class="vert-move" src="{{asset('frontend/img/banners/7.jpg')}}" alt="Landscape Architecture">
             </div>
 
         </div>

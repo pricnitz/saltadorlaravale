@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="banner-header middle-height section-padding valign bg-img bg-imgfixed" data-overlay-dark="5"
-         data-background="{{asset('frontend/img/banners/6.jpg')}}">
+           data-background="{{asset('frontend/img/services/pm.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">

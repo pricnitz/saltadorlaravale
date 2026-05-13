@@ -2,7 +2,7 @@
 @section('content')
 
     <div class="banner-header section-padding valign bg-img bg-imgfixed" data-overlay-dark="7"
-     data-background="{{asset('frontend/img/banners/6.jpg')}}">
+        data-background="{{asset('frontend/img/banners/2.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -57,7 +57,7 @@
                     <div class="line"></div>
                 </div>
                 <div class="title">
-                    <h6 class="sub-title">Resident at Indore</h6>
+                    <h6 class="sub-title">Residence at Indore</h6>
                 </div>
             </div>
             <div class="row align-items-center">
@@ -67,67 +67,37 @@
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence in indore1.png')}}" alt="Residence in indore"> </div>
                                 <div class="con">
-                                    <div class="title">Casa Minimal Kitchen</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Living Space</div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence in indore2.webp')}}" alt="Residence in indore"> </div>
                                 <div class="con">
-                                    <div class="title">Casa Minimal Kitchen</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Bedroom</div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 1.jpg')}}" alt="Residence at Indore"> </div>
                                 <div class="con">
-                                    <div class="title">Casa Minimal Kitchen</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Dining Space</div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 2.jpg')}}" alt="Residence at Indore"> </div>
                                 <div class="con">
-                                    <div class="title">Armada Center</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Living Space</div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 3.jpg')}}" alt="Residence at Indore"> </div>
                                 <div class="con">
-                                    <div class="title">Vista Modern Villa</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Living Space</div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="img"> <img src="{{asset('frontend/img/portfolio/Residence at Indore 4.jpg')}}" alt="Residence at Indore"> </div>
                                 <div class="con">
-                                    <div class="title">The Horizon Residence</div>
-                                </div>
-                                <div class="more">
-                                    <a href="portfolio-single.html"> <span class="icon-wrap">
-                                            <span class="icon"><i class="ti-arrow-top-right"></i></span> </span>
-                                    </a>
+                                    <div class="title">Bedroom</div>
                                 </div>
                             </div>
                         </div>
@@ -147,7 +117,7 @@
                     <div class="line"></div>
                 </div>
                 <div class="title">
-                    <h6 class="sub-title">Resident at Warangal</h6>
+                    <h6 class="sub-title">Residence at Warangal</h6>
                 </div>
             </div>
             <div class="row align-items-center">

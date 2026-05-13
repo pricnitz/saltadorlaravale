@@ -1,76 +1,90 @@
-    <footer class="footer">
-        <div class="background banner-img bg-img bg-imgfixed" data-background="{{asset('frontend/img/banners/1.jpg')}}" data-overlay-dark="7">
-            <div class="container">
-                <div class="top">
-                    <div class="row align-items-center">
-                        <div class="col-md-4">
-                            <div class="item">
-                                <div class="logo mb-30"><img src="img/logo.png" alt=""></div>
-                                <div class="social-icons mb-30">
-                                    <ul class="list-inline">
-                                        <li>
-                                            <a href="https://www.instagram.com/saltador_architects_indore?igsh=MWltZ2R1eTM3NXZyNA%3D%3D">
-                                                <i class="fa-brands fa-instagram"></i>
-                                            </a>
-                                        </li>
-                                    
-                             
-                                    
-                                        <li>
-                                            <a href="https://www.facebook.com/profile.php?id=61578240914887">
-                                                <i class="fa-brands fa-facebook-f"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://wa.me/+916260476007" target="_blank">
-                                                <i class="fa-brands fa-whatsapp"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+<footer class="footer">
+    <div class="background banner-img bg-img bg-imgfixed" data-background="{{ asset('frontend/img/banners/1.jpg') }}" data-overlay-dark="7">
+        <div class="container">
+            <div class="top">
+                <div class="row">
+                    <!-- Brand & Socials -->
+                    <div class="col-md-4">
+                        <div class="item mb-30">
+                            <div class="logo mb-30">
+                                <img src="{{ asset('frontend/img/logo/logo.png') }}" alt="Saltador Architects">
                             </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="item text-end-left">
-                                <h3 class="mb-30">Get in touch</h3>
-                                <p class="mb-5"><i class="fa-solid fa-location-dot me-2"></i> UGF 5, Asha Complex,
-                                    Arawali Marg, Indira Nagar, Lucknow.
-                                </p>
-                                <div class="phone mb-5"><a href="tel:+919754755616"><i
-                                            class="fa-solid fa-phone me-2"></i> +91-97547-55616</a></div>
-                                <div class="phone mb-5"><a href="tel:+919559476888"><i
-                                            class="fa-solid fa-phone me-2"></i> +91-95594-76888</a></div>
-                                <div class="mail"><a href="mailto:saltador.architect@gmail.com"><i
-                                            class="fa-solid fa-envelope me-2"></i>saltador.architect@gmail.com</a>
-                                </div>
+                            <div class="social-icons">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item">
+                                        <a href="https://www.instagram.com/saltador_architects_indore" target="_blank">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://www.facebook.com/profile.php?id=61578240914887" target="_blank">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a href="https://wa.me/+916260476007" target="_blank">
+                                            <i class="fa-brands fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="bottom">
-                    <div class="row">
-                        <div class="col-lg-8 col-md-12">
-                            <div class="links">
-                            <ul>
-                                <li><a href="{{ route('home') }}">Home</a></li>
-                                <li><a href="{{ route('about') }}">About</a></li>
 
-                                {{-- Assuming you want the main services page or the first service --}}
-                            
-
-                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
-                                <li><a href="{{ route('contact') }}">Contact</a></li>
-                            </ul>
+                    <!-- Lucknow Office -->
+                    <div class="col-md-4">
+                        <div class="item mb-30">
+                            <h3 class="mb-30">Lucknow Office</h3>
+                            <p class="mb-10">
+                                <i class="fa-solid fa-location-dot me-2"></i> UGF 5, Asha Complex, Arawali Marg, Indira Nagar, Lucknow.
+                            </p>
+                            <div class="phone mb-10">
+                                <a href="tel:+919559476888"><i class="fa-solid fa-phone me-2"></i> +91 9559476888</a>
+                            </div>
+                            <div class="mail">
+                                <a href="mailto:saltador.architect@gmail.com"><i class="fa-solid fa-envelope me-2"></i> saltador.architect@gmail.com</a>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-12 text-end">
-                            <p>Copyright 2026 by <a href="#">codeworldsol</a></p>
+                    </div>
+
+                    <!-- Indore Office -->
+                    <div class="col-md-4">
+                        <div class="item mb-30">
+                            <h3 class="mb-30">Indore Office</h3>
+                            <p class="mb-10">
+                                <i class="fa-solid fa-location-dot me-2"></i>    Old RTO office, 03, Babu Lalchand Chajlani Rd, above HDFC Bank, Ganesh Nagar, Revenue Colony, Indira Gandhi Nagar, Indore, Madhya Pradesh 452009
+                            </p>
+                            <div class="phone mb-5">
+                                <a href="tel:+918318896682"><i class="fa-solid fa-phone me-2"></i> +91 8318896682</a>
+                            </div>
+                            <div class="phone mb-10">
+                                <a href="tel:+916260476007"><i class="fa-solid fa-phone me-2"></i> +91 6260476007</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <div class="bottom">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-12">
+                        <div class="links">
+                            <ul>
+                                <li><a href="{{ route('home') }}">Home</a></li>
+                                <li><a href="{{ route('about') }}">About</a></li>
+                                <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                                <li><a href="{{ route('contact') }}">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 text-lg-end">
+                        <p>Copyright 2026 by <a href="https://codeworldsol.com" target="_blank">Codeworld Solution</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
 
 
